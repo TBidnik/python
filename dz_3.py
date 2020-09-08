@@ -32,17 +32,15 @@ print(data_func())
 
 
 # Задание№3
-def my_func(*args):
-    el_1 = input("Введите первое число:")
-    el_2 = input("Введите второе число:")
-    el_3 = input("Введите третье число:")
-    el_new = [el_1, el_2, el_3]
-    el_new.remove(min(el_1, el_2, el_3))
-    return sum(el_new)
+el_1 = input("Введите первое число:")
+el_2 = input("Введите второе число:")
+el_3 = input("Введите третье число:")
+
+def my_func(el_1, el_2, el_3):
+    return sum([el_1, el_2, el_3]) - min([el_1, el_2, el_3])
 
 
-summa = my_func()
-print(int(summa))
+
 
 
 # Задание№4
