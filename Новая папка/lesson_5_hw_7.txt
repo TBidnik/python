@@ -1,0 +1,3 @@
+firma_1 OOO 15000 2000
+firma_2 OOO 15000 18000
+firma_3 OOO 25000 5000
